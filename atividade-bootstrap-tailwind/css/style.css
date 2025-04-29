@@ -1,0 +1,9 @@
+.p-eletros{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.central{
+    display: flex;
+    align-items: center;
+}
