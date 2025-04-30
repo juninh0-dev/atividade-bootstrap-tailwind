@@ -28,24 +28,18 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="outros-componentes.html">Ourtros componentes</a></li>
+              <li><a class="dropdown-item" href="tailwind.html">Site do TailwindCss</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Não sabia mais oque colocar</a></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -58,34 +52,44 @@
 
   <!-- FIM NAVBAR -->
 
-<!-- INICIO CARROSEL -->
-  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://ogimg.infoglobo.com.br/in/14781909-a90-024/FT1086A/gtav_xbox360tv_1280.jpg" class="d-block w-100" alt="...">
+  <!-- INICIO CARROSEL -->
+  <div class="d-flex justify-content-center border-black p-3 bg-gradient bg-black custom-gradient">
+    <div id="carouselExampleAutoplaying" class="carousel slide"
+      data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img style="max-width: 1080px;"
+            src="https://ogimg.infoglobo.com.br/in/14781909-a90-024/FT1086A/gtav_xbox360tv_1280.jpg"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img style="max-width: 1080px;" src="https://t2.tudocdn.net/631311?w=1920" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img style="max-width: 1080px;"
+            src="https://www.omgpu.com/wp-content/uploads/2024/10/Red-Dead-Redemption-Remaster-Precommande-a-4999-E-sur.jpg"
+            class="d-block w-100" alt="...">
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="https://t2.tudocdn.net/631311?w=1920" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="https://www.omgpu.com/wp-content/uploads/2024/10/Red-Dead-Redemption-Remaster-Precommande-a-4999-E-sur.jpg" class="d-block w-100" alt="...">
-      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
-<!-- FIM CARROSEL -->
+
+  <!-- FIM CARROSEL -->
 
   <!-- INICIO CONTAINER -->
   <div class="container mt-5">
+
+
 
     <div class="row d-flex align-items-stretch gap-5">
 
@@ -188,9 +192,28 @@
         </div>
       </div>
 
+      
+
     </div> <!-- FIM ROW -->
   </div>
   <!-- FIM CONTAINER -->
+
+  <!-- FOOTER -->
+
+<div class="container d-flex justify-content-center">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="tailwind.html">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+    <li class="page-item"><a class="page-link" href="outros-componentes.html">2</a></li>
+    <li class="page-item"><a class="page-link" href="tailwind.html">3</a></li>
+    <li class="page-item"><a class="page-link" href="index.html">Next</a></li>
+  </ul>
+</div>
+  
+
+  <footer class="bg-dark text-white text-center py-3">
+    © 2025 NextStage. Todos os direitos reservados.
+  </footer>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
