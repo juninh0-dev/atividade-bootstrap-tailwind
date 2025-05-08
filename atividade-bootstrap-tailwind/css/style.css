@@ -13,3 +13,11 @@ img{
     width: 100%; 
     height: 100%;
 }
+
+.card-int:hover { /*Interatividade do card*/
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1s;
+    background: black;
+    color: white;
+}
